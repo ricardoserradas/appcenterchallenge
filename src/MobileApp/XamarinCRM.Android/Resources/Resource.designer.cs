@@ -26,6 +26,9 @@ namespace XamarinCRMAndroid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.AppCenter.Push.Android.Resource.Integer.google_play_services_version = global::XamarinCRMAndroid.Resource.Integer.google_play_services_version;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.common_google_play_services_unknown_issue = global::XamarinCRMAndroid.Resource.String.common_google_play_services_unknown_issue;
+			global::Microsoft.AppCenter.Push.Android.Resource.String.library_name = global::XamarinCRMAndroid.Resource.String.library_name;
 			global::Xamarin.Auth._MobileServices.Resource.Animation.slide_in_right = global::XamarinCRMAndroid.Resource.Animation.slide_in_right;
 			global::Xamarin.Auth._MobileServices.Resource.Animation.slide_out_left = global::XamarinCRMAndroid.Resource.Animation.slide_out_left;
 			global::Xamarin.Auth._MobileServices.Resource.Drawable.ic_arrow_back = global::XamarinCRMAndroid.Resource.Drawable.ic_arrow_back;
@@ -4384,8 +4387,8 @@ namespace XamarinCRMAndroid
 			// aapt resource value: 0x7f080051
 			public const int ApplicationName = 2131230801;
 			
-			// aapt resource value: 0x7f080053
-			public const int GoogleMapsKey = 2131230803;
+			// aapt resource value: 0x7f080054
+			public const int GoogleMapsKey = 2131230804;
 			
 			// aapt resource value: 0x7f080050
 			public const int Hello = 2131230800;
@@ -4545,6 +4548,9 @@ namespace XamarinCRMAndroid
 			
 			// aapt resource value: 0x7f08000f
 			public const int common_signin_button_text_long = 2131230735;
+			
+			// aapt resource value: 0x7f080053
+			public const int library_name = 2131230803;
 			
 			// aapt resource value: 0x7f080011
 			public const int mr_button_content_description = 2131230737;
