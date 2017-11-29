@@ -26,7 +26,7 @@ namespace XamarinCRMAndroid.Renderers
 
         public FloatingActionButtonViewRenderer(Android.Content.Context context) : base(context)
         {
-            _context = context;
+            //_context = context;
 
             float d = context.Resources.DisplayMetrics.Density;
             var margin = (int)(MARGIN_DIPS * d); // margin in pixels
